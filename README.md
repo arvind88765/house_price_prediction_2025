@@ -6,7 +6,7 @@ This project is a **house price prediction web application** built with **Flask*
 
 ## What is this project?
 
-The **House Price Prediction 2025** application leverages **machine learning** techniques, specifically a regression model, to predict the price of a house. The model is built using data from various sources and is deployed in a web application using **Flask**. 
+The **House Price Prediction 2025** application leverages **machine learning** techniques, specifically a regression model, to predict the price of a house. The model is built using data from various sources and is deployed in a web application using **Flask**.
 
 Key features:
 - **Predict house prices** based on input features like area, location, and availability.
@@ -117,10 +117,27 @@ Contributing
 We welcome contributions to improve the model, add more features, or fix bugs! If you'd like to contribute, follow these steps:
 
 Fork the repository.
-Create a new branch: git checkout -b feature-branch
-Make your changes and commit: git commit -m 'Add new feature or fix bug'
-Push to your forked repository: git push origin feature-branch
+
+Create a new branch:
+
+bash
+Copy
+Edit
+git checkout -b feature-branch
+Make your changes and commit:
+
+bash
+Copy
+Edit
+git commit -m 'Add new feature or fix bug'
+Push to your forked repository:
+
+bash
+Copy
+Edit
+git push origin feature-branch
 Open a pull request with a description of your changes.
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -131,22 +148,3 @@ XGBoost: Powerful gradient boosting algorithm used for house price prediction.
 scikit-learn: Machine learning library for various utilities.
 pandas, numpy: Data manipulation libraries used to handle and process the data.
 Datasets: The dataset used in this project is publicly available and sourced from Kaggle or other reliable sources.
-If you have any issues or questions, feel free to open an issue or reach out!
-
-Happy predicting! 🎉
-
-vbnet
-Copy
-Edit
-
----
-
-### Key Sections Explained:
-
-1. **What is this project?**: Provides a brief overview of what the project does (predicting house prices using Flask and machine learning).
-2. **Requirements**: Lists the software and libraries needed to run the project.
-3. **How to Use**: Step-by-step instructions for cloning the repository, installing dependencies, and running the Flask app.
-4. **How to Run via Command Prompt**: Provides detailed instructions for running the app via the command line.
-5. **Troubleshooting**: Gives users a heads-up on common warnings and how to interpret them.
-6. **Contributing**: Encourages open-source contributions by providing simple guidelines for forking, making changes, and submitting pull requests.
-7. **License and Acknowledgements**: Details the licensing (MIT) and credits to the tools/libr
