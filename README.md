@@ -30,42 +30,89 @@ You can install the required packages by running the following command in your p
 
 ```bash
 pip install -r requirements.txt
-How to Use
-Clone the repository
+```
+
+
+---
+
+
+
+## How to Use our project 
+
+## STEP1 : install git in your local machine (laptop/pc)
+
+## STEP2: go to the command promt 
+
+
+### Clone the repository
 Start by cloning the project to your local machine:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/arvind88765/house_price_prediction_2025.git
-Navigate to the project folder
+```
+
+- Navigate to the project folder
 Go into the project directory where the files are located:
 
-bash
-Copy
-Edit
+```bash
 cd house_price_prediction_2025
+```
+
 Install dependencies
 Make sure you have all the necessary libraries installed:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-This will install all required Python packages listed in the requirements.txt file.
+```
 
-Run the Flask app
+- This will install all required Python packages listed in the requirements.txt file.
+
+## Run the Flask app
 To start the Flask web server and access the prediction app, run:
 
-bash
-Copy
-Edit
+```bash
 python app.py
-Access the app
+```
+
+- Access the app
 Once the server is running, open a web browser and navigate to:
 
-arduino
-Copy
-Edit
+```bash
 http://127.0.0.1:5000
-This will bring up the app’s main interface where you can input house details (like size, location, and availability) to get price predictions.
+```
+
+- This will bring up the app’s main interface where you can input house details (like size, location, and availability) to get price predictions.
+
+
+
+## Troubleshooting
+If you see warnings like the XGBoost version compatibility warning, it’s not an error. This warning informs you that the model might have been saved with a previous version of XGBoost, but it won’t affect the functionality.
+
+Flask development server warning: This message is normal when running Flask in development mode. For production, you should use a proper WSGI server (like Gunicorn or uWSGI).
+
+## Contributing
+We welcome contributions to improve the model, add more features, or fix bugs! If you'd like to contribute, follow these steps:
+
+## Fork the repository.
+Create a new branch:
+git checkout -b feature-branch
+Make your changes and commit:
+git commit -m 'Add new feature or fix bug'
+## Push to your forked repository:
+git push origin feature-branch
+Open a pull request with a description of your changes.
+
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
++ Libraries/Frameworks Used:
++ Flask: Lightweight web framework for Python.
++ XGBoost: Powerful gradient boosting algorithm used for house price prediction.
++ scikit-learn: Machine learning library for various utilities.
++ pandas, numpy: Data manipulation libraries used to handle and process the data.
+
+
+## Datasets:
+The dataset used in this project is publicly available and sourced from Kaggle or other reliable sources.
