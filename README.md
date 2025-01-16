@@ -2,8 +2,6 @@
 
 This project is a **house price prediction web application** built with **Flask** and powered by machine learning. It uses a trained model to predict house prices based on various factors like location, area, availability, and other features. The app provides an easy-to-use web interface where users can input house details and get a price prediction in real-time.
 
----
-
 ## What is this project?
 
 The **House Price Prediction 2025** application leverages **machine learning** techniques, specifically a regression model, to predict the price of a house. The model is built using data from various sources and is deployed in a web application using **Flask**.
@@ -13,12 +11,9 @@ Key features:
 - Built with **Flask** for easy deployment as a web service.
 - Uses **XGBoost** (or other ML models) to generate predictions.
 
----
-
 ## Requirements
 
 To run this project locally, you’ll need the following:
-
 - **Python 3.x** (Recommended version: Python 3.9+)
 - **Required Python packages**:
   - Flask
@@ -32,39 +27,34 @@ You can install the required packages by running the following command in your p
 ```bash
 pip install -r requirements.txt
 How to Use
-1. Clone the repository
+Clone the repository
 Start by cloning the project to your local machine:
-
 bash
 Copy
 Edit
 git clone https://github.com/arvind88765/house_price_prediction_2025.git
-2. Navigate to the project folder
+Navigate to the project folder
 Go into the project directory where the files are located:
-
 bash
 Copy
 Edit
 cd house_price_prediction_2025
-3. Install dependencies
+Install dependencies
 Make sure you have all the necessary libraries installed:
-
 bash
 Copy
 Edit
 pip install -r requirements.txt
 This will install all required Python packages listed in the requirements.txt file.
 
-4. Run the Flask app
+Run the Flask app
 To start the Flask web server and access the prediction app, run:
-
 bash
 Copy
 Edit
 python app.py
-5. Access the app
+Access the app
 Once the server is running, open a web browser and navigate to:
-
 arduino
 Copy
 Edit
@@ -73,9 +63,7 @@ This will bring up the app’s main interface where you can input house details 
 
 How to Run via Command Prompt (CMD)
 Open Command Prompt (Windows) or Terminal (Mac/Linux).
-
 Navigate to the project directory where app.py is located:
-
 bash
 Copy
 Edit
@@ -83,13 +71,11 @@ cd path\to\house_price_prediction_2025
 Activate your Python environment (if using a virtual environment):
 
 For Windows:
-
 bash
 Copy
 Edit
 venv\Scripts\activate
 For macOS/Linux:
-
 bash
 Copy
 Edit
@@ -101,7 +87,6 @@ Copy
 Edit
 python app.py
 Open your browser and go to:
-
 arduino
 Copy
 Edit
@@ -117,27 +102,22 @@ Contributing
 We welcome contributions to improve the model, add more features, or fix bugs! If you'd like to contribute, follow these steps:
 
 Fork the repository.
-
 Create a new branch:
-
 bash
 Copy
 Edit
 git checkout -b feature-branch
 Make your changes and commit:
-
 bash
 Copy
 Edit
 git commit -m 'Add new feature or fix bug'
 Push to your forked repository:
-
 bash
 Copy
 Edit
 git push origin feature-branch
 Open a pull request with a description of your changes.
-
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
