@@ -30,3 +30,42 @@ You can install the required packages by running the following command in your p
 
 ```bash
 pip install -r requirements.txt
+How to Use
+Clone the repository
+Start by cloning the project to your local machine:
+
+bash
+Copy
+Edit
+git clone https://github.com/arvind88765/house_price_prediction_2025.git
+Navigate to the project folder
+Go into the project directory where the files are located:
+
+bash
+Copy
+Edit
+cd house_price_prediction_2025
+Install dependencies
+Make sure you have all the necessary libraries installed:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+This will install all required Python packages listed in the requirements.txt file.
+
+Run the Flask app
+To start the Flask web server and access the prediction app, run:
+
+bash
+Copy
+Edit
+python app.py
+Access the app
+Once the server is running, open a web browser and navigate to:
+
+arduino
+Copy
+Edit
+http://127.0.0.1:5000
+This will bring up the app’s main interface where you can input house details (like size, location, and availability) to get price predictions.
